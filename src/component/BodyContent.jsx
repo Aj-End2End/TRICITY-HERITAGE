@@ -15,7 +15,6 @@ const images = [
 ];
 
 const data = [
-  { type: "1 BHK", area: 424, price: "58.30 Lacs* ++" },
   { type: "2 BHK", area: 628, price: "85.32 Lacs* ++" },
   { type: "2 BHK", area: 634, price: "86.11 Lacs* ++" },
   { type: "2 BHK", area: 651, price: "88.46 Lacs* ++" },
@@ -30,7 +29,7 @@ const galleryImages = [
   "images/GALLERY/TRICITY HERITAGE - GALLERY 6.jpg",
 ];
 
-const floorImages = ["images/FLOOR PLAN/1.jpg", "images/FLOOR PLAN/2.jpg"];
+const floorImages = ["images/FLOOR PLAN/2.jpg"];
 
 const aminitiesImages = [
   {
@@ -181,7 +180,7 @@ const BodyContent = () => {
     <>
       <div>
         <div className="flex flex-col lg:flex-row " id="home">
-          <div className="relative w-full lg:w-[70%] h-64 sm:h-80 md:h-96 h-1/2 lg:h-screen xl:h-[600px]">
+          <div className="relative w-full lg:w-[70%] sm:h-80 md:h-96 h-1/2 lg:h-screen xl:h-[600px]">
             <img
               src={images[currentIndex]}
               alt="slider"
@@ -216,9 +215,6 @@ const BodyContent = () => {
               <h2 className="text-lg sm:text-xl lg:text-2xl font-bold">
                 Exclusive Elite Living
               </h2>
-              <p className="text-sm sm:text-base lg:text-lg mt-2 mb-[7px] font-[700] border-4 border-[#126958] text-[#eee4e4] bg-[#126958] w-full">
-                1 Bed Homes: 58.30 Lacs*++
-              </p>
               <p className="text-sm sm:text-base lg:text-lg mt-2 mb-[7px] font-[700] border-4 border-[#126958] text-[#eee4e4] bg-[#126958] w-full">
                 2 Bed Homes: 85.32 Lacs*++
               </p>
@@ -257,7 +253,7 @@ const BodyContent = () => {
             </h1>
             <p className="text-gray-900 sm:text-lg md:text-lg lg:text-xl xl:text-xl mb-4 sm:mb-6 text-justify">
               <b className="font-bold">TRICITY HERITAGE...</b> The project is
-              located in Sector 21, New Panvel, Navi Mumbai. It offers 1 & 2 BHK
+              located in Sector 21, New Panvel, Navi Mumbai. It offers 2 BHK
               Apartments along with Commercial Shops. Located in prime location
               in close proximity to Panvel Railway Station, it offers seamless
               connectivity to Mumbai, Pune and other significant Urban Centers,
@@ -272,7 +268,7 @@ const BodyContent = () => {
             <ul className="list-disc pl-5 text-black sm:text-black md:text-lg lg:text-lg xl:text-xl ">
               <li>01 Acre CIDCO TENDER PLOT</li>
               <li className="mb-1">Panvel City Skyline Icon</li>
-              <li className="mb-1">1 & 2 Bed Luxury Residences</li>
+              <li className="mb-1">2 Bed Luxury Residences</li>
               <li className="mb-1">Promising Precinct of Panvel township</li>
               <li className="mb-1">Modern Lifestyle Amenities</li>
               <li className="mb-1">5 Mins from Panvel Railway Station</li>
@@ -289,13 +285,13 @@ const BodyContent = () => {
             <table className="table border-1 border-black w-full">
               <thead className="bg-gray-50 text-center">
                 <tr className="border-1">
-                  <th className="border-1 px-[11px] py-3 text-left text-xs sm:text-sm md:text-base lg:text-[16px] font-medium text-gray-500 uppercase tracking-wider transition-all duration-300 text-center">
+                  <th className="border-1 px-[11px] py-3 text-xs sm:text-sm md:text-base lg:text-[16px] font-medium text-gray-500 uppercase tracking-wider transition-all duration-300 text-center">
                     Typology
                   </th>
-                  <th className="border-1 px-[11px] py-3 text-left text-xs sm:text-sm md:text-base lg:text-[16px] font-medium text-gray-500 transition-all duration-300 text-center">
+                  <th className="border-1 px-[11px] py-3 text-xs sm:text-sm md:text-base lg:text-[16px] font-medium text-gray-500 transition-all duration-300 text-center">
                     CARPET AREA (Sq Ft)
                   </th>
-                  <th className="border-1 px-[11px] py-3 text-left text-xs sm:text-sm md:text-base lg:text-[16px] font-medium text-gray-500 uppercase tracking-wider transition-all duration-300 text-center">
+                  <th className="border-1 px-[11px] py-3 text-xs sm:text-sm md:text-base lg:text-[16px] font-medium text-gray-500 uppercase tracking-wider transition-all duration-300 text-center">
                     PRICE
                   </th>
                 </tr>

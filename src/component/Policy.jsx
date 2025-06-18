@@ -42,10 +42,10 @@ const Policy = () => {
         <ul className="list-disc space-y-4 font-roboto text-[23px] p-[10px] text-black text-justify">
           <li>
             <a
-              href="https://tricity-heritage-panvel.e2ehs.co.in/"
+              href="https://tricity-heritage-panvel.navi-mumbai-project.com/"
               className="text-blue-500"
             >
-              tricity-heritage-panvel.e2ehs.co.in
+              tricity-heritage-panvel.navi-mumbai-project.com
             </a>{" "}
             recognises the importance of maintaining your privacy. We value your
             privacy and appreciate your trust in us.
@@ -53,10 +53,10 @@ const Policy = () => {
           <li>
             This Policy describes how we treat user information we collect on{" "}
             <a
-              href="https://tricity-heritage-panvel.e2ehs.co.in/"
+              href="https://tricity-heritage-panvel.navi-mumbai-project.com/"
               className="text-blue-500"
             >
-              tricity-heritage-panvel.e2ehs.co.in
+              tricity-heritage-panvel.navi-mumbai-project.com
             </a>{" "}
             and other offline sources.
           </li>
